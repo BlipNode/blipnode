@@ -12,7 +12,7 @@ const PrivacyPolicyPage: React.FC = () => {
                 {/* Title */}
                 <div className="text-center mb-12">
                     <h1 className="text-4xl md:text-5xl font-bold text-gradient">
-                        MindFlip - Privacy Policy
+                        BlipNode - Privacy Policy
                     </h1>
                     <h3 className="text-slate-400 mt-4 text-lg">
                         Last updated September 16, 2025
@@ -201,7 +201,7 @@ const PrivacyPolicyPage: React.FC = () => {
                 </section>
 
                 {/* WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION? */}
-                <section>
+                <section className="mb-12 space-y-6">
                     <h2
                         id="what-legal-bases-do-we-rely-on"
                         className="text-2xl md:text-3xl font-bold text-gradient mb-6"
@@ -1093,10 +1093,10 @@ const PrivacyPolicyPage: React.FC = () => {
                         circumstances by applicable law. To request to review, update, or delete your personal information,
                         please visit:{" "}
                         <a
-                            href="http://www.blipnode.com/mindflip/data-request"
+                            href="https://blipnode.github.io/blipnode/data-request"
                             className="text-blue-600 hover:underline"
                         >
-                            http://www.blipnode.com/mindflip/data-request
+                            https://blipnode.github.io/blipnode/data-reques
                         </a>.
                     </p>
                 </section>
