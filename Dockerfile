@@ -1,40 +1,41 @@
-# Use the Node alpine official image
-# https://hub.docker.com/_/node
 FROM node:lts-alpine AS build
 
-# Set config
+# Configs
 ENV NPM_CONFIG_UPDATE_NOTIFIER=false
 ENV NPM_CONFIG_FUND=false
 
-# Create and change to the app directory.
+# Work directory
 WORKDIR /app
 
-# Copy the files to the container image
-COPY package*.json ./
+# Install pnpm globally
+RUN npm install -g pnpm
 
-# Install packages
-RUN npm ci
+# Copy dependencies file
+COPY package.json pnpm-lock.yaml* ./
 
-# Copy local code to the container image.
-COPY . ./
+# Install dependencies
+RUN pnpm install --frozen-lockfile
 
-# Build the app.
-RUN npm run build
+# Copy source code
+COPY . .
 
-# Use the Caddy image
-FROM caddy
+# App build
+RUN pnpm build
 
-# Create and change to the app directory.
+# -------------------------
+# Caddy
+# -------------------------
+FROM caddy:alpine
+
+# Work directory
 WORKDIR /app
 
-# Copy Caddyfile to the container image.
+# Copy Caddyfile
 COPY Caddyfile ./
-
-# Copy local code to the container image.
 RUN caddy fmt Caddyfile --overwrite
 
-# Copy files to the container image.
+# Copy files generated from build
 COPY --from=build /app/dist ./dist
 
-# Use Caddy to run/serve the app
+# Serve with Caddy
 CMD ["caddy", "run", "--config", "Caddyfile", "--adapter", "caddyfile"]
