@@ -30,7 +30,7 @@ export default defineConfig(({ mode }) => {
     }
 
     return {
-        base: "/",
+        base: "/blipnode",
         plugins: [react()],
         build,
         esbuild,
