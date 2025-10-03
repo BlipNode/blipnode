@@ -15,9 +15,166 @@ const PrivacyPolicyPage: React.FC = () => {
                         BlipNode - Privacy Policy
                     </h1>
                     <h3 className="text-slate-400 mt-4 text-lg">
-                        Last updated September 16, 2025
+                        Last updated October 10, 2025
                     </h3>
                 </div>
+
+                {/* INTRO */}
+                <section className="mb-16">
+                    <div className="space-y-6 text-slate-300 leading-relaxed">
+                        <p>
+                            This Privacy Notice for BlipNode ("<strong>we</strong>," "<strong>us</strong>," or
+                            "<strong>our</strong>"), describes how and why we might access, collect, store, use,
+                            and/or share ("<strong>process</strong>") your personal information when you use our
+                            services ("<strong>Services</strong>"), including when you:
+                        </p>
+
+                        <nav>
+                            <ul className="list-disc list-inside ml-6 space-y-2">
+                                <li>Download and use our mobile application (MindFlip), or any other application of ours
+                                    that links to this Privacy Notic
+                                </li>
+
+                                <li>Engage with us in other related ways, including any sales, marketing, or events</li>
+                            </ul>
+                        </nav>
+
+                        <p>
+                            <strong>Questions or concerns?</strong> Reading this Privacy Notice will help you understand your privacy rights
+                            and choices. We are responsible for making decisions about how your personal information is
+                            processed. If you do not agree with our policies and practices, please do not use our Services.
+                            If you still have any questions or concerns, please contact us at
+                            <a href="mailto:blipnode.dev@gmail.com"
+                                className="text-blue-600 hover:underline"> blipnode.dev@gmail.com
+                            </a>.
+                        </p>
+                    </div>
+                </section>
+
+                {/* SUMMARY OF KEY POINTS */}
+                <section className="mb-16">
+                    <h2
+                        id="summary-of-key-points"
+                        className="text-2xl md:text-3xl font-bold text-gradient mb-6"
+                    >
+                        SUMMARY OF KEY POINTS
+                    </h2>
+
+                    <div className="space-y-6 text-slate-300 leading-relaxed">
+                        <p>
+                            <strong><i>This summary provides key points from our Privacy Notice, but you can find out more details
+                                about any of these topics by clicking the link following each key point or by using our
+                                <a href="#table-of-contents"
+                                    className="text-cyan-400 hover:underline"> table of contents</a> below to find the
+                                section you are looking for.</i></strong>
+                        </p>
+
+                        <p>
+                            <strong>What personal information do we process?</strong> When you visit, use, or navigate our Services,
+                            we may process personal information depending on how you interact with us and the Services,
+                            the choices you make, and the products and features you use. Learn more about
+                            <a href="#what-information-do-we-collect"
+                                className="text-cyan-400 hover:underline"> personal information you disclose to us.</a>
+                        </p>
+
+                        <p>
+                            <strong>Do we process any sensitive personal information?</strong> Some of the information
+                            may be considered "special" or "sensitive" in certain jurisdictions, for example your
+                            racial or ethnic origins, sexual orientation, and religious beliefs. We do not process
+                            sensitive personal information.
+                        </p>
+
+                        <p>
+                            <strong>Do we collect any information from third parties?</strong> We do not collect any
+                            information from third parties.
+                        </p>
+
+                        <p>
+                            <strong>How do we process your information?</strong> We process your information to provide,
+                            improve, and administer our Services, communicate with you, for security and fraud
+                            prevention, and to comply with law. We may also process your information for other purposes
+                            with your consent. We process your information only when we have a valid legal reason to do
+                            so. Learn more about <a href="#how-do-we-process-your-information"
+                                className="text-cyan-400 hover:underline"> how we process your information</a>.
+                        </p>
+
+                        <p>
+                            <strong>In what situations and with which parties do we share personal
+                                information?</strong> We may share information in specific situations and with specific
+                            third parties. Learn more about <a href="#when-and-with-whom-do-we-share"
+                                className="text-cyan-400 hover:underline"> when and with whom we share your personal
+                                information</a>.
+                        </p>
+
+                        <p>
+                            <strong>How do we keep your information safe?</strong> We have adequate organizational and
+                            technical processes and procedures in place to protect your personal information. However,
+                            no electronic transmission over the internet or information storage technology can be
+                            guaranteed to be 100% secure, so we cannot promise or guarantee that hackers,
+                            cybercriminals, or other unauthorized third parties will not be able to defeat our security
+                            and improperly collect, access, steal, or modify your information.
+                            <a href="#how-do-we-keep-your-information-safe"
+                                className="text-cyan-400 hover:underline"> Learn more about how we keep your
+                                information safe</a>.
+                        </p>
+
+                        <p>
+                            <strong>What are your rights?</strong> Depending on where you are located geographically,
+                            the applicable privacy law may mean you have certain rights regarding your personal
+                            information. Learn more about <a href="#what-are-your-privacy-rights"
+                                className="text-cyan-400 hover:underline"> your privacy rights</a>.
+                        </p>
+
+                        <p>
+                            <strong>How do you exercise your rights?</strong> The easiest way to exercise your rights is
+                            by emailing us at <a href="mailto:blipnode.dev@gmail.com"
+                                className="text-cyan-400 hover:underline">blipnode.dev@gmail.com</a>,
+                            or by contacting us. We will consider and act upon any request in accordance
+                            with applicable data protection laws.
+                        </p>
+
+                        <p>
+                            Want to learn more about what we do with any information we collect? Review the
+                            <a href="#table-of-contents"
+                                className="text-cyan-400 hover:underline"> Privacy Notice in full</a>.
+                        </p>
+                    </div>
+                </section>
+
+                {/* TABLE OF CONTENTS */}
+                <section className="mb-16">
+                    <h2
+                        id="table-of-contents"
+                        className="text-2xl md:text-3xl font-bold text-gradient mb-6"
+                    >
+                        TABLE OF CONTENTS
+                    </h2>
+
+                    <div className="space-y-6 text-slate-300 leading-relaxed">
+                        <nav>
+                            <ol className="list-inside ml-6 space-y-2">
+                                <li><a href="#what-information-do-we-collect" className="text-cyan-400 hover:underline">1. WHAT INFORMATION DO WE COLLECT?</a></li>
+                                <li><a href="#how-do-we-process-your-information" className="text-cyan-400 hover:underline">2. HOW DO WE PROCESS YOUR INFORMATION?</a></li>
+                                <li><a href="#what-legal-bases-do-we-rely-on" className="text-cyan-400 hover:underline">3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?</a></li>
+                                <li><a href="#when-and-with-whom-do-we-share" className="text-cyan-400 hover:underline">4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</a></li>
+                                <li><a href="#what-is-our-stance-on-third-party" className="text-cyan-400 hover:underline">5. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?</a></li>
+                                <li><a href="#how-do-we-handle-your-social-logins" className="text-cyan-400 hover:underline">6. HOW DO WE HANDLE YOUR SOCIAL LOGINS?</a></li>
+                                <li><a href="#is-your-information-transferred" className="text-cyan-400 hover:underline">7. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?</a></li>
+                                <li><a href="#how-long-do-we-keep" className="text-cyan-400 hover:underline">8. HOW LONG DO WE KEEP YOUR INFORMATION?</a></li>
+                                <li><a href="#how-do-we-keep-your-information-safe" className="text-cyan-400 hover:underline">9. HOW DO WE KEEP YOUR INFORMATION SAFE?</a></li>
+                                <li><a href="#do-we-collect-information-from-minors" className="text-cyan-400 hover:underline">10. DO WE COLLECT INFORMATION FROM MINORS?</a></li>
+                                <li><a href="#what-are-your-privacy-rights" className="text-cyan-400 hover:underline">11. WHAT ARE YOUR PRIVACY RIGHTS?</a></li>
+                                <li><a href="#controls-for-do-not-track-features" className="text-cyan-400 hover:underline">12. CONTROLS FOR DO NOT TRACK FEATURES</a></li>
+                                <li><a href="#do-united-states-residents" className="text-cyan-400 hover:underline">13. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</a></li>
+                                <li><a href="#soft-delete-mechanism" className="text-cyan-400 hover:underline">14. SOFT-DELETE MECHANISM</a></li>
+                                <li><a href="#rate-limiting-and-ip-processing" className="text-cyan-400 hover:underline">15. RATE-LIMITING AND TEMPORARY IP PROCESSING</a></li>
+                                <li><a href="#do-we-make-updates-to-this-notice" className="text-cyan-400 hover:underline">16. DO WE MAKE UPDATES TO THIS NOTICE?</a></li>
+                                <li><a href="#how-can-you-contact-us" className="text-cyan-400 hover:underline">17. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a></li>
+                                <li><a href="#how-can-you-delete" className="text-cyan-400 hover:underline">18. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</a></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </section>
 
                 {/* WHAT INFORMATION DO WE COLLECT? */}
                 <section className="mb-16">
@@ -65,6 +222,42 @@ const PrivacyPolicyPage: React.FC = () => {
                         </p>
 
                         <p>
+                            <strong>Payment Data.</strong> We may collect data necessary to process your payment if you
+                            choose to make purchases, such as your payment instrument number, and the security code
+                            associated with your payment instrument. All payment data is handled and stored by Stripe.
+                            You may find their privacy notice link(s) here: <a
+                                href="https://stripe.com/privacy" target="_blank"
+                                className="text-cyan-400 hover:underline">
+                                https://stripe.com/privacy</a>.
+                        </p>
+
+                        <p>
+                            <strong>Social Media Login Data.</strong> We may provide you with the option to register with
+                            us using your existing social media account details, like your Facebook, X, or other social
+                            media account. If you choose to register in this way, we will collect certain profile
+                            information about you from the social media provider, as described in the section called
+                            "HOW DO WE HANDLE YOUR SOCIAL LOGINS?" below.
+                        </p>
+
+                        <p><strong>Application Data.</strong> If you use our application(s), we also may collect the following
+                            information if you choose to provide us with access or permission:
+                        </p>
+
+                        <nav>
+                            <ul className="list-disc list-inside ml-6 space-y-2">
+                                <li><i>Push Notifications.</i> We may request to send you push notifications regarding
+                                    your account or certain features of the application(s). If you wish to opt out from
+                                    receiving these types of communications, you may turn them off in your device's
+                                    settings.</li>
+                            </ul>
+                        </nav>
+
+                        <p>This information is primarily needed to maintain the security and operation of our
+                            application(s), for troubleshooting, and for our internal analytics and reporting
+                            purposes.
+                        </p>
+
+                        <p>
                             All personal information that you provide to us must be true, complete,
                             and accurate, and you must notify us of any changes to such personal
                             information.
@@ -92,16 +285,6 @@ const PrivacyPolicyPage: React.FC = () => {
                             and for our internal analytics and reporting purposes.
                         </p>
 
-                        <p>
-                            Like many businesses, we also collect information through cookies and
-                            similar technologies. You can find out more about this in our Cookie
-                            Notice:{" "}
-                            <a href="#" className="text-cyan-400 hover:underline">
-                                add_here.com
-                            </a>
-                            .
-                        </p>
-
                         <p>The information we collect includes:</p>
 
                         <ul className="list-disc list-inside ml-6 space-y-2">
@@ -114,6 +297,19 @@ const PrivacyPolicyPage: React.FC = () => {
                                 users.
                             </li>
                         </ul>
+
+                        <p className="text-lg font-semibold text-white">
+                            Google API
+                        </p>
+
+                        <p>
+                            Our use of information received from Google APIs will adhere to
+                            <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank"
+                                className="text-cyan-400 hover:underline"> Google API Services User Data Policy</a>,
+                            including the
+                            <a href="https://developers.google.com/terms/api-services-user-data-policy#limited-use"
+                                target="_blank" className="text-cyan-400 hover:underline"> Limited Use requirements</a>.
+                        </p>
                     </div>
                 </section>
 
@@ -175,6 +371,12 @@ const PrivacyPolicyPage: React.FC = () => {
                                 process your information to send you details about our products and
                                 services, changes to our terms and policies, and other similar
                                 information.
+                            </li>
+
+                            <li>
+                                <strong>To enable user-to-user communications.</strong> We may process your information
+                                if you choose to use any of our offerings that allow for communication with another
+                                user.
                             </li>
 
                             <li>
@@ -385,6 +587,18 @@ const PrivacyPolicyPage: React.FC = () => {
                             of, any merger, sale of company assets, financing, or acquisition of all
                             or a portion of our business to another company.
                         </li>
+
+                        <li>
+                            <strong className="text-white">Other Users.</strong> When you share personal information
+                            (for example, by posting comments, contributions, or other content to the Services) or
+                            otherwise interact with public areas of the Services, such personal information may be
+                            viewed by all users and may be publicly made available outside the Services in perpetuity.
+                            If you interact with other users of our Services and register for our Services through a
+                            social network (such as Facebook), your contacts on the social network will see your name,
+                            profile photo, and descriptions of your activity. Similarly, other users will be able to
+                            view descriptions of your activity, communicate with you within our Services, and view your
+                            profile.
+                        </li>
                     </ul>
                 </section>
 
@@ -422,60 +636,36 @@ const PrivacyPolicyPage: React.FC = () => {
                     </p>
                 </section>
 
-                {/* 6. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES? */}
+                {/* 6. HOW DO WE HANDLE YOUR SOCIAL LOGINS? */}
                 <section className="mb-12 space-y-6">
                     <h2
-                        id="do-we-use-cookies"
+                        id="how-do-we-handle-your-social-logins"
                         className="text-2xl md:text-3xl font-bold text-gradient"
                     >
-                        6. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
+                        6. HOW DO WE HANDLE YOUR SOCIAL LOGINS?
                     </h2>
 
                     <p className="italic text-slate-300">
-                        <strong>In Short:</strong> We may use cookies and other tracking
-                        technologies to collect and store your information.
+                        <strong>In Short:</strong> If you choose to register or log in to our Services using a social
+                        media account, we may have access to certain information about you.
                     </p>
 
                     <p className="text-slate-300 leading-relaxed">
-                        We may use cookies and similar tracking technologies (like web beacons and
-                        pixels) to gather information when you interact with our Services. Some
-                        online tracking technologies help us maintain the security of our Services
-                        and your account, prevent crashes, fix bugs, save your preferences, and
-                        assist with basic site functions.
+                        Our Services offer you the ability to register and log in using your third-party social media
+                        account details (like your Facebook or X logins). Where you choose to do this, we will receive
+                        certain profile information about you from your social media provider. The profile information
+                        we receive may vary depending on the social media provider concerned, but will often include
+                        your name, email address, friends list, and profile picture, as well as other information you
+                        choose to make public on such a social media platform.
                     </p>
 
                     <p className="text-slate-300 leading-relaxed">
-                        We also permit third parties and service providers to use online tracking
-                        technologies on our Services for analytics and advertising, including to
-                        help manage and display advertisements, to tailor advertisements to your
-                        interests, or to send abandoned shopping cart reminders (depending on your
-                        communication preferences). The third parties and service providers use
-                        their technology to provide advertising about products and services
-                        tailored to your interests which may appear either on our Services or on
-                        other websites.
-                    </p>
-
-                    <p className="text-slate-300 leading-relaxed">
-                        To the extent these online tracking technologies are deemed to be a
-                        "sale"/"sharing" (which includes targeted advertising, as defined under the
-                        applicable laws) under applicable US state laws, you can opt out of these
-                        online tracking technologies by submitting a request as described below
-                        under section{" "}
-                        <a
-                            href="#do-united-states-residents"
-                            className="text-cyan-400 hover:underline"
-                        >
-                            DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
-                        </a>
-                    </p>
-
-                    <p className="text-slate-300 leading-relaxed">
-                        Specific information about how we use such technologies and how you can
-                        refuse certain cookies is set out in our Cookie Notice:{" "}
-                        <a href="#" className="text-cyan-400 hover:underline">
-                            add_here.com
-                        </a>
-                        .
+                        We will use the information we receive only for the purposes that are described in this Privacy
+                        Notice or that are otherwise made clear to you on the relevant Services. Please note that we do
+                        not control, and are not responsible for, other uses of your personal information by your
+                        third-party social media provider. We recommend that you review their privacy notice to
+                        understand how they collect, use, and share your personal information, and how you can set your
+                        privacy preferences on their sites and apps.
                     </p>
                 </section>
 
@@ -962,10 +1152,7 @@ const PrivacyPolicyPage: React.FC = () => {
 
                     <p className="text-lg font-semibold mt-4">How to Exercise Your Rights</p>
                     <p className="text-slate-300 leading-relaxed">
-                        To exercise these rights, you can contact us by visiting{" "}
-                        <a href="http://www.blipnode.com/data-request" className="text-blue-600 hover:underline">
-                            http://www.blipnode.com/data-request
-                        </a>, or by emailing us at{" "}
+                        To exercise these rights, you can contact us by emailing us at{" "}
                         <a href="mailto:blipnode.dev@gmail.com" className="text-blue-600 hover:underline">
                             blipnode.dev@gmail.com
                         </a>.
@@ -1091,12 +1278,9 @@ const PrivacyPolicyPage: React.FC = () => {
                         correct inaccuracies, or delete your personal information. You may also have the right to withdraw your
                         consent to our processing of your personal information. These rights may be limited in some
                         circumstances by applicable law. To request to review, update, or delete your personal information,
-                        please visit:{" "}
-                        <a
-                            href="https://blipnode.github.io/blipnode/data-request"
-                            className="text-blue-600 hover:underline"
-                        >
-                            https://blipnode.github.io/blipnode/data-reques
+                        please email us at:{" "}
+                        <a href="mailto:blipnode.dev@gmail.com" className="text-blue-600 hover:underline">
+                            blipnode.dev@gmail.com
                         </a>.
                     </p>
                 </section>
