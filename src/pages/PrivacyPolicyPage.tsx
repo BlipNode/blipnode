@@ -15,7 +15,7 @@ const PrivacyPolicyPage: React.FC = () => {
                         BlipNode - Privacy Policy
                     </h1>
                     <h3 className="text-slate-400 mt-4 text-lg">
-                        Last updated October 10, 2025
+                        Last updated October 8, 2025
                     </h3>
                 </div>
 
@@ -897,6 +897,34 @@ const PrivacyPolicyPage: React.FC = () => {
                         However, please note that this will not affect the lawfulness of the processing before its withdrawal
                         nor, when applicable law allows, will it affect the processing of your personal information conducted in
                         reliance on lawful processing grounds other than consent.
+                    </p>
+
+                    <p className="text-lg font-semibold mt-4">Account Information</p>
+
+                    <p className="text-slate-300 leading-relaxed">
+                        If you would at any time like to review or change the information in your account or terminate
+                        your account, you can:
+                    </p>
+
+                    <nav>
+                        <ul className="list-disc list-inside ml-6 space-y-2">
+                            <li>
+                                Log in to your account, go to the Settings tab, and under General, click My Account.
+                                You’ll find the option “Delete My Account.”
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <p className="text-slate-300 leading-relaxed">
+                        Upon your request to terminate your account, we will deactivate or delete your account and
+                        information from our active databases. However, we may retain some information in our files to
+                        prevent fraud, troubleshoot problems, assist with any investigations, enforce our legal terms
+                        and/or comply with applicable legal requirements.
+                    </p>
+
+                    <p className="text-slate-300 leading-relaxed">
+                        If you have questions or comments about your privacy rights, you may email us at
+                        <a href="mailto:blipnode.dev@gmail.com" className="text-blue-600 hover:underline"> blipnode.dev@gmail.com</a>.
                     </p>
                 </section>
 
